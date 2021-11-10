@@ -5,7 +5,7 @@ bigip_login_secret: f5-bigip-ctlr-login
 image:
   pullPolicy: Always
   repo: k8s-bigip-ctlr
-  user: f5networks
+  # user: f5networks <<< no longer being used
 namespace: kube-system
 rbac:
   create: true
